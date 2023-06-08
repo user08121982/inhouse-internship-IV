@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Booking Form</h1>
+    <form action="#" method="GET">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="session">Preferred Session:</label>
+      <select id="session" name="session" required>
+        <option value="">Select a session</option>
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="evening">Evening</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit" class="book-submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
