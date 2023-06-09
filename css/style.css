@@ -24,6 +24,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  margin-top: 0px;
 }
 
 .navbar .logo {
@@ -47,11 +48,14 @@ body::-webkit-scrollbar-thumb {
   color: black;
 }
 
+.navbar .active {
+  background-color: #ddd;
+  color: black;
+}
 
 .navbar .icon {
   display: none;
 }
-
 
 body {
   display: flex;
@@ -60,10 +64,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
-}
-
-.navbar {
-  width: 100%;
 }
 
 .content,
@@ -138,4 +138,3 @@ body {
   font-size : 30px;
   font-weight : bold;
 }
-
