@@ -1,5 +1,18 @@
+// Add functionality to navbar links
+var navbarLinks = document.querySelectorAll('.navbar-center a');
 
+navbarLinks.forEach(link => {
+    link.addEventListener('click', event => {
+
+    navbarLinks.forEach(navLink => {
+        navLink.classList.remove('active');
+    });
+
+    link.classList.add('active');
+    });
+});
 function recipes(){
+    document.getElementById("message").innerHTML="<h2 style='color:red;'>Please log in to continue</h2>";
 }
 
 
@@ -8,9 +21,9 @@ function recipes(){
 
 // Array of words to cycle through
 const words = [
-   { text: 'learn...', color: '#8B8000' },
-   { text: 'connect...', color: '#c65102' },
-   { text: 'discover...', color: 'red' }
+   { text: 'Learn...', color: '#8B8000' },
+   { text: 'Connect...', color: '#c65102' },
+   { text: 'Discover...', color: 'red' }
 ];
 
 // Get the changing-text element
@@ -29,4 +42,5 @@ function changeWord() {
 }
 
 // Call the changeWord function every 3 seconds (3000 milliseconds)
-setInterval(changeWord, 3000);
+setInterval(changeWord, 1000);
+
