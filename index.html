@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
+
   <div class="navbar" id="myNavbar">
     <div class="navbar-left">
       <span class="logo">Chef's Table</span>
     </div>
     <div class="navbar-center">
-      <a href="#" class="active">Home</a>
-      <a href="#">Recipes</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="#" onclick="recipes()">Recipes</a>
       <a href="#">Categories</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
@@ -24,12 +25,28 @@
     </div>
   </div>
 
+  <div id="message"></div>
+  <div class="chef-section">
+
+    <<div class="chef-image">
+      <img src="1-removebg-preview.png" alt="Chef Image">
+    </div>
+
+    <div class="chef-text">
+      <h1><span class="chef-initial">C</span>hef's <span class="chef-initial">T</span>able</h1>
+      <p class="headline" id="changing-text">A place where food lovers unite to <span class="changing-word" style="color:red">discover...</span></p>
+      <p class="descrip">Whether you're an experienced chef or a cooking enthusiast, our platform is packed with valuable resources and inspiration to enhance your culinary abilities. Explore a wide range of delectable recipes, gain insights from expert chefs, and engage with a vibrant community of fellow food enthusiasts. Embark on a delightful gastronomic adventure, unlocking your kitchen's potential to create and share delicious meals. Let's celebrate the joy of cooking together and savor the pleasure of sharing unforgettable culinary experiences.</p>
+      <a href="#" class="get-started-btn">Get Started</a>
+    </div>
+  </div>
+
   <div class="content">
     <h1>Join Our Free Cooking Learning Session!</h1>
     <p>Discover the joy of cooking with our interactive and educational cooking learning session. Whether you're a beginner or an experienced cook, our sessions cater to all levels of expertise.</p>
     <p>Learn new recipes, techniques, and culinary tips from our expert chefs. Don't miss out on this fantastic opportunity to enhance your cooking skills and unleash your creativity in the kitchen.</p>
     <a href="booking.html" class="booking-btn">Book a Session</a>
   </div>
+
   <div class="features">
     <h2>Why Join Our Cooking Learning Session?</h2>
     <div class="feature">
@@ -62,9 +79,6 @@
       <p class="name">- Jane Smith</p>
     </div>
   </div>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-
-
