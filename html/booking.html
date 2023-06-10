@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Booking Form</title>
+  <title>Chef's Table | Booking Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="icon" href="../images/1-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/style1.css">
 </head>
 <body>
+  <div class="navbar" id="myNavbar">
+    <div class="logo">
+      <img class="logo-img" src="../images/2-removebg-preview.png" alt="Logo">
+      <span class="logo-text">Chef's Table</span>
+    </div>
+    <div class="navbar-center">
+      <a href="index.html" class="active">Home</a>
+      <a href="#" onclick="recipes()">Recipes</a>
+      <a href="#">Categories</a>
+      <a href="aboutus.html">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="navbar-right">
+      <a href="#" class="login-btn">Login</a>
+      <a href="#" class="register-btn">Register</a>
+    </div>
+  </div>
   <div class="form-container">
     <h1>Booking Form</h1>
     <form action="#" method="GET">
@@ -31,5 +51,30 @@
       <button type="submit" class="book-submit">Submit</button>
     </form>
   </div>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="../images/2-removebg-preview.png" alt="Footer Logo" class="footer-img">
+          <span class="footer-logo-text">Chef's Table</span>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a><br>
+          <a href="#">About</a><br>
+          <a href="#">Recipes</a><br>
+          <a href="#">Categories</a><br>
+          <a href="#">Contact</a><br>
+        </div>
+        <div class="footer-social">
+          <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="../images/instagram-company.png" alt="Instagram"></a>
+          <a href="#"><img src="../images/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Chef's Table. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

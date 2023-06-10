@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chef's Table | Home</title>
+  <title>Chef's Table: Learn,Discover,Share</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="icon" href="../images/1-removebg-preview.png" type="image/x-icon">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-
   <div class="navbar" id="myNavbar">
-    <div class="navbar-left">
-      <span class="logo">Chef's Table</span>
+    <div class="logo">
+      <img class="logo-img" src="../images/2-removebg-preview.png" alt="Logo">
+      <span class="logo-text">Chef's Table</span>
     </div>
     <div class="navbar-center">
       <a href="index.html" class="active">Home</a>
-      <a href="recipes.html" onclick="recipes()">Recipes</a>
-      <a href="categories.html">Categories</a>
+      <a href="#" onclick="recipes()">Recipes</a>
+      <a href="#">Categories</a>
       <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="#">Contact</a>
     </div>
     <div class="navbar-right">
       <a href="#" class="login-btn">Login</a>
       <a href="#" class="register-btn">Register</a>
     </div>
   </div>
-
+  <div id="message"></div>
   <div class="chef-section">
-
-    <div class="chef-image">
+    <div class="chef-image" style="margin-top:150px;margin-left:50px;">
       <img src="../images/1-removebg-preview.png" alt="Chef Image">
     </div>
 
-    <div class="chef-text">
+    <div class="chef-text" style="margin-top : 100px;margin-left:50px;">
       <h1><span class="chef-initial">C</span>hef's <span class="chef-initial">T</span>able</h1>
       <p class="headline" id="changing-text">A place where food lovers unite to <span class="changing-word" style="color:red">Discover...</span></p>
       <p class="descrip">Whether you're an experienced chef or a cooking enthusiast, our platform is packed with valuable resources and inspiration to enhance your culinary abilities. Explore a wide range of delectable recipes, gain insights from expert chefs, and engage with a vibrant community of fellow food enthusiasts. Embark on a delightful gastronomic adventure, unlocking your kitchen's potential to create and share delicious meals. Let's celebrate the joy of cooking together and savor the pleasure of sharing unforgettable culinary experiences.</p>
@@ -77,6 +77,32 @@
       <p class="name">- Jane Smith</p>
     </div>
   </div>
-<script src="../js/script.js"></script>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="2-removebg-preview.png" alt="Footer Logo" class="footer-img">
+          <span class="footer-logo-text">Chef's Table</span>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a><br>
+          <a href="#">About</a><br>
+          <a href="#">Recipes</a><br>
+          <a href="#">Categories</a><br>
+          <a href="#">Contact</a><br>
+        </div>
+        <div class="footer-social">
+          <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="../images/instagram-company.png" alt="Instagram"></a>
+          <a href="#"><img src="../images/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Chef's Table. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+<script src="../js/script.js">
+</script>
 </body>
 </html>

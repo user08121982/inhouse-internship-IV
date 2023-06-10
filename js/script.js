@@ -1,12 +1,5 @@
-
-function recipes(){
-}
-
-
 //changing of words
-// script.js
 
-// Array of words to cycle through
 const words = [
    { text: 'Learn...', color: '#8B8000' },
    { text: 'Connect...', color: '#c65102' },
