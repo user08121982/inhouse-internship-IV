@@ -8,7 +8,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0em    ;
+  width: 0em;
 }
 
 body::-webkit-scrollbar-track {
@@ -110,12 +110,13 @@ body {
   font-size: 18px;
   border-radius: 4px;
 }
+
 .chef-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height : 575px;
+  height: 575px;
   padding-bottom: 100px;
 }
 
@@ -127,7 +128,7 @@ body {
 .chef-text .descrip {
   font-size: 19px;
   text-align: justify;
-  margin-right : 40px;
+  margin-right: 40px;
 }
 
 .get-started-btn {
@@ -160,12 +161,6 @@ a.get-started-btn:hover {
   text-align: left;
 }
 
-.chef-text h1 {
-  font-size: 50px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 .chef-text h1 .chef-initial {
   font-size: 100px;
 }
@@ -179,22 +174,14 @@ a.get-started-btn:hover {
   font-size: 18px;
   border-radius: 4px;
 }
+
 .headline {
   font-size : 30px;
   font-weight : bold;
 }
 
-
-
-
-
-
-
-
-
-
 footer {
-margin-top : 100px;
+  margin-top : 100px;
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -266,5 +253,3 @@ margin-top : 100px;
   text-align: center;
   margin-top: 20px;
 }
-
-

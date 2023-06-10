@@ -1,16 +1,3 @@
-var navbarLinks = document.querySelectorAll('.navbar-center a');
-
-navbarLinks.forEach(link => {
-    link.addEventListener('click', event => {
-
-    navbarLinks.forEach(navLink => {
-        navLink.classList.remove('active');
-    });
-
-    link.classList.add('active');
-    });
-});
-
 //changing of words
 
 const words = [
@@ -34,6 +21,5 @@ function changeWord() {
   currentIndex = (currentIndex + 1) % words.length;
 }
 
-// Call the changeWord function every 3 seconds (3000 milliseconds)
+// Call the changeWord function every 1 seconds (1000 milliseconds)
 setInterval(changeWord, 1000);
-
