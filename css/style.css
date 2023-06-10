@@ -107,8 +107,8 @@ body {
 .get-started-btn {
   margin-top: 60px;
   margin-left: 5px;
-  webkit-border-radius: 7px;
-  moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
   border-radius: 7px;
   color: #ffffff;
   font-size: 20px;
