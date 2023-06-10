@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -24,14 +28,37 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #f2f2f2;
-  margin-left: 20px;
+.navbar .logo-img{
+  width : 40px;
+  height : auto;
+  margin-left : 10px;
 }
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo-text{
+  font-size : 25px;
+  color:#f2f2f2;
+  font-weight : bold;
+  margin-top : 10px;
+  margin-left : 10px;
+  margin-bottom : 10px;
+}
+
+
+
 
 .navbar a {
   display: inline-block;
@@ -58,7 +85,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -99,13 +125,13 @@ body {
 }
 
 .chef-text .descrip {
-  font-size: 20px;
+  font-size: 19px;
   text-align: justify;
   margin-right : 40px;
 }
 
 .get-started-btn {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 5px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -120,7 +146,7 @@ body {
 }
 
 a.get-started-btn:hover {
-  background: #fffb78;
+  background-color: #ddd;
   border-color: #333333;
   color: #333333;
   font-weight : bold;
@@ -128,9 +154,8 @@ a.get-started-btn:hover {
 
 }
 
-
-
 .chef-text h1 {
+  margin-top : 100px;
   margin-left : 260px;
   text-align: left;
 }
@@ -158,4 +183,88 @@ a.get-started-btn:hover {
   font-size : 30px;
   font-weight : bold;
 }
+
+
+
+
+
+
+
+
+
+
+footer {
+margin-top : 100px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width : 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.footer-logo {
+  display: flex;
+  align-items: left;
+}
+
+.footer-img{
+
+}
+
+.footer-logo-text {
+  font-size : 25px;
+  color:#f2f2f2;
+  font-weight : bold;
+  margin-top : 10px;
+  margin-left : 10px;
+  margin-bottom : 10px;
+}
+
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  margin : 0px 10px;
+}
+
+.footer-links {
+  text-align: left;
+  margin-top : 10px;
+  margin-left : 10px;
+}
+
+.footer-links a {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: left;
+  margin-top : 3px;
+  margin-left : 3px;
+
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
 
