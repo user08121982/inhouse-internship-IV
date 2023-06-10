@@ -1,4 +1,3 @@
-// Add functionality to navbar links
 var navbarLinks = document.querySelectorAll('.navbar-center a');
 
 navbarLinks.forEach(link => {
@@ -11,15 +10,9 @@ navbarLinks.forEach(link => {
     link.classList.add('active');
     });
 });
-function recipes(){
-    document.getElementById("message").innerHTML="<h2 style='color:red;'>Please log in to continue</h2>";
-}
-
 
 //changing of words
-// script.js
 
-// Array of words to cycle through
 const words = [
    { text: 'Learn...', color: '#8B8000' },
    { text: 'Connect...', color: '#c65102' },
